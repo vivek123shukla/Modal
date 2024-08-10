@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://static.toiimg.com/photo/msid-103053443,width-96,height-65.cms');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-top: 3rem;
+    color:aqua;
+    color: blue;
+}
+#btn{
+    margin-top: 2.5rem;
+    font-size: 2.2rem;
+    background-color: rgb(20, 239, 17);
+    color:red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 2rem;
+    padding: 0.6rem;
+}
+.main{
+     border: 2px solid black;
+     margin-top: 4rem;
+     width: 29rem;
+     height: 19rem;
+  background-color: white;
+  font-size: 1.9rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  visibility: hidden;
+}
+.main p{
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1rem;
+}
